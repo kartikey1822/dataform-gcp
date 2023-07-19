@@ -3,7 +3,7 @@ config {
     tags: ["operation"]
 }
 
-create or replace procedure testdataform.newSP()
+create or replace procedure testdataform.newSP(name string)
 begin
-insert into `testdataform.testtable`(Client) values('NewGarbage');
+insert into `testdataform.testtable`(Client) values(name);
 end
