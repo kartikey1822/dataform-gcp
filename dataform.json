@@ -1,8 +1,8 @@
 {
     "warehouse": "bigquery",
-    "defaultSchema": "dataform",
+    "defaultSchema": "testdataform",
     "assertionSchema": "dataform_assertions",
-    "defaultDatabase": "ai-analytics-solutions",
+    "defaultDatabase": "winged-client-393215",
     "defaultLocation": "US",
     "useRunCache": false
 }

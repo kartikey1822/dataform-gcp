@@ -1,0 +1,6 @@
+config {
+    type: "incremental",
+    tags: ["space2"]
+}
+
+select * from ${ref("sourceTable")} where monthYear='July 2000'
