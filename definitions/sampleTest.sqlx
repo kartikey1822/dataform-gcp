@@ -1,0 +1,7 @@
+config {
+    type: "operations",
+    tags: ["operation"]
+}
+
+insert into testdataform.testtable(ID,Client,monthYear)
+values(7,"Tejas","August 2000")

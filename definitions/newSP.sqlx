@@ -1,0 +1,9 @@
+config {
+    type: "operations",
+    tags: ["operation"]
+}
+
+create or replace procedure testdataform.newSP()
+begin
+insert into `testdataform.testtable`(Client) values('NewGarbage');
+end
