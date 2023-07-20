@@ -1,6 +1,0 @@
-config {
-    type: "operations",
-    tags: "operation"
-}
-
-CALL testdataform.newSP('Garbage');

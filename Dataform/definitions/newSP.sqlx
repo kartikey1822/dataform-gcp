@@ -1,0 +1,9 @@
+config {
+    type: "operations",
+    tags: ["operation"]
+}
+
+create or replace procedure testdataform.newSP(name string)
+begin
+insert into `testdataform.testtable`(Client) values(name);
+end

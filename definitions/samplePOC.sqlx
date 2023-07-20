@@ -1,6 +1,0 @@
-config {
-     type: "operations",
-     tags: ["operation"]
-}
-
-CALL `winged-client-393215.testdataform.insertFF`();
